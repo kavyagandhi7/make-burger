@@ -1,0 +1,97 @@
+.burgerIngredients{
+    height: 290px;
+
+    width: 100%;
+    overflow: auto;
+}
+.burgerIngredients p{
+    text-align: center;
+}
+.ingredientsBlock{
+    background-color: #f4b46c;
+    margin: 30px auto 0;
+    display: table;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+.ingredientsBlock p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ingrBtns{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ingrBtn{
+    border: 0;
+    background-color: #c17116;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    display: table;
+    width: 95px;
+}
+.topside{
+    background-image: url(../components/img/top.jpg);
+    background-size: 300px;
+    height: 110px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bottomside{
+    background-image: url(../components/img/bottom.jpg);
+    background-size: 300px;
+    height: 60px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lettuceside{
+    background-image: url(../components/img/lettuse.jpg);
+    background-size: 300px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.tomatoside{
+    background-image: url(../components/img/tomato.jpg);
+    background-size: 300px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cheeseside{
+    background-image: url(../components/img/cheese.jpg);
+    background-size: 300px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meatside{
+
+    background-image: url(../components/img/meat.jpg);
+    background-size: 300px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
